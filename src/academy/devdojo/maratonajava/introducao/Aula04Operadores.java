@@ -11,5 +11,20 @@ public class Aula04Operadores {
         // %
         int resto = 21 % 7;
         System.out.println(resto);
+
+        // < > <= >= == !=
+        boolean isDezMaiorQueVinte = 10 > 20;
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezIgualDez = 10 == 10;
+        boolean isDezDiferenteDeDez = 10 != 10;
+        boolean isDezDiferenteDeVinte = 10 != 20;
+        System.out.println("isDezMaiorQueVinte "+isDezMaiorQueVinte);
+        System.out.println("isDezMenorQueVinte "+isDezMenorQueVinte);
+        System.out.println("isDezIgualVinte "+isDezIgualVinte);
+        System.out.println("isDezIgualDez "+isDezIgualDez);
+        System.out.println("isDezDiferenteDeDez "+isDezDiferenteDeDez);
+        System.out.println("isDezDiferenteDeVinte "+isDezDiferenteDeVinte);
     }
 }
+
