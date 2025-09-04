@@ -8,11 +8,10 @@ public class Aula05EstruturasCondicionais {
 
         if(isAutorizadoComprarBebida) {
             System.out.println("Autorizado");
-        }
-
-        if(!isAutorizadoComprarBebida) {
+        }else{
             System.out.println("Não autorizado");
         }
+
 
     }
 }
